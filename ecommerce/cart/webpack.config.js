@@ -14,6 +14,14 @@ module.exports = {
                 './CartShow': './src/index'
             },
             shared: ['faker']
+            // object using singleton implementation
+            /*
+            shared: {
+                    faker: {
+                        singleton: true
+                    }
+                } 
+            */
         }),
         new HtmlWebpackPlugin({
             template: './public/index.html'
