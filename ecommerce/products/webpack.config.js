@@ -11,7 +11,7 @@ module.exports = {
             name: 'products',
             filename: 'remoteEntry.js',
             exposes: {
-                './ProductsIndex': './src/index'
+                './ProductsIndex': './src/boostrap'
             },
             shared: ['faker']
             // object using singleton implementation
